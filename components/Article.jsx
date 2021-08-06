@@ -8,8 +8,9 @@ export default function Article({ post }) {
     <Link href={`/posts/${post.id}`}>
         <div className='bg-white rounded overflow-hidden shadow border'>
           <Image
+            className='object-cover'
             src={`http://localhost:1337${post.media[0].url}`}
-            width={500}
+            width={700}
             height={300}
             priority
           />
@@ -19,9 +20,9 @@ export default function Article({ post }) {
             <p className='text-center mb-4'>
               <small>Last updated {post.updated_at}</small>
             </p>
-            
-            <a className='hover:text-white hover:bg-red-800 md:ml-24 rounded-full py-2 px-3 uppercase text-xs font-bold curser-pointer tracking-wider border bg-purple-300'>Read More</a>
-            
+            <div className="flex justify-center">
+            <a className='  hover:text-white hover:bg-red-800 rounded-full py-2 px-3 uppercase text-xs font-bold curser-pointer tracking-wider border bg-purple-300'>Read More</a>
+            </div>
           </div>
         </div>
     </Link>

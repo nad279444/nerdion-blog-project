@@ -1,13 +1,14 @@
 import React from "react";
 import Link from 'next/link';
+import Image from 'next/image'
 
 export default function Navbar(){
   return (
     <>
       <nav className='flex items-center flex-wrap bg-red-800 p-3 '>
         <Link href='/'>
-          <a className='inline-flex items-center p-2 mr-4 '>
-          <img src="images/logo.png" alt=""/>
+          <a className='inline-flex md:items-center justify-center p-2 mr-4 '>
+          <Image src="/images/logo.png" alt="Nerdion Tech Solutions" width={200} height={50}/>
           </a>
         </Link>
         <button className=' inline-flex p-3 hover:bg-purple-500 rounded lg:hidden text-white ml-auto hover:text-white outline-none'>
