@@ -8,7 +8,7 @@ module.exports = {
   variants: {
     extend: {
       fontFamily:{
-        body:['"Montserrat"']
+        body:['Nunito']
       },
     },
   },

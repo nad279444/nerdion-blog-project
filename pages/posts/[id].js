@@ -12,7 +12,7 @@ import Image from 'next/image'
             <div className="md:m-60 md:mt-20 ">
                 <div>
                     <Image src={`http://localhost:1337${post.media[0].url}`} width={800} height={500} priority/>
-                    <div className="rounded overflow-hidden font-sans font-light md:text-lg pt-6 p-4" dangerouslySetInnerHTML={{__html:htmlContent}}></div>
+                    <div className="rounded overflow-hidden font-body font-light md:text-lg pt-6 p-4" dangerouslySetInnerHTML={{__html:htmlContent}}></div>
                 </div>
             </div>
         </>

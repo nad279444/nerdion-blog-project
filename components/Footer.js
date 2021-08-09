@@ -4,31 +4,40 @@ export default function Footer() {
   return (
       <>
 
-    <div className="bg-green-500">
+    <div className="bg-indigo-900 text-white font-medium">
        <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-center">
-          <div className="p-5 w-48 ">
-             <div className="text-xs uppercase text-gray-500 font-medium">Home</div>
-             <a className="my-3 block" href="/#">Services <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Products <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">About Us <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Pricing <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Partners <span className="text-teal-600 text-xs p-1">New</span></a> 
+
+         <div className="p-5 md:w-72 w-48 md:mr-48">
+             <div className="text-base  text-white font-sans font-medium">nerdion.</div>
+             <p className="text-white my-3 block" >We exist as Africa’s hub for techsolutions (software and hardware systems) and technology education/ training services provider for corporates, individuals and society specific development. <span className="text-teal-600 text-xs p-1"></span></p>
+            
+         </div>
+         <div className="p-5 w-48 ">
+             <div className="text-base text-white font-sans font-medium">Quick Links</div>
+             <a className=" text-white my-3 block" href="/#">Obiara Digital <span className="text-white text-xs p-1"></span></a>
+             <a className="my-3 text-white block" href="/#">Services <span className="text-teal-600 text-xs p-1"></span></a>
+             <a className="text-white my-3 block" href="/#">Portfolio <span className="text-teal-600 text-xs p-1"></span></a>
+             <a className="text-white my-3 block" href="/#">Contact <span className="text-teal-600 text-xs p-1"></span></a>
           </div>
-          <div className="p-5 w-48 ">
+          {/* <div className="p-5 w-48 ">
              <div className="text-xs uppercase text-gray-500 font-medium">User</div>
              <a className="my-3 block" href="/#">Sign in <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">New Account <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Demo <span className="text-teal-600 text-xs p-1">New</span></a><a className="my-3 block" href="/#">Career <span className="text-teal-600 text-xs p-1">We're hiring</span></a><a className="my-3 block" href="/#">Surveys <span className="text-teal-600 text-xs p-1">New</span></a> 
-          </div>
-          <div className="p-5 w-48 ">
+          </div> */}
+          {/* <div className="p-5 w-48 ">
              <div className="text-xs uppercase text-gray-500 font-medium">Resources</div>
              <a className="my-3 block" href="/#">Documentation <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Tutorials <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Support <span className="text-teal-600 text-xs p-1">New</span></a> 
+          </div> */}
+          
+          <div className="p-5 w-48 ">
+             <div className="text-base  text-white font-sans font-medium">Support</div>
+             <a className="text-white my-3 block" href="/#">Help Center <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Privacy Policy <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Conditions <span className="text-teal-600 text-xs p-1"></span></a> 
           </div>
           <div className="p-5 w-48 ">
-             <div className="text-xs uppercase text-gray-500 font-medium">Product</div>
-             <a className="my-3 block" href="/#">Our Products <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Great Deals <span className="text-teal-600 text-xs p-1">New</span></a><a className="my-3 block" href="/#">Analytics <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Mobile <span className="text-teal-600 text-xs p-1"></span></a> 
-          </div>
-          <div className="p-5 w-48 ">
-             <div className="text-xs uppercase text-gray-500 font-medium">Support</div>
-             <a className="my-3 block" href="/#">Help Center <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Privacy Policy <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Conditions <span className="text-teal-600 text-xs p-1"></span></a> 
-          </div>
-          <div className="p-5 w-48 ">
-             <div className="text-xs uppercase text-gray-500 font-medium">Contact us</div>
-             <a className="my-3 block" href="/#">XXX XXXX, Floor 4 San Francisco, CA <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">contact@company.com <span className="text-teal-600 text-xs p-1"></span></a> 
+             <div className="text-base  text-white font-medium">Contact Information</div>
+             <a className="text-white my-3 block" href="/#">222/14, Ok Street,Kasoa Ghana <span className="text-teal-600 text-xs p-1"></span></a>
+             <a className="text-white my-3 block" href="/#">+233 59 447 8093 <span className="text-teal-600 text-xs p-1"></span></a> 
+             <a className="text-white my-3 block" href="/#">info@nerdion.digital <span className="text-teal-600 text-xs p-1"></span></a> 
+             
           </div>
        </div>
     </div>
