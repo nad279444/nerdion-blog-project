@@ -30,7 +30,9 @@ export default function Footer() {
           
           <div className="p-5 w-48 ">
              <div className="text-base  text-white font-sans font-medium">Support</div>
-             <a className="text-white my-3 block" href="/#">Help Center <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Privacy Policy <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">Conditions <span className="text-teal-600 text-xs p-1"></span></a> 
+             <a className="text-white my-3 block" href="/#">Help Center <span className="text-teal-600 text-xs p-1"></span></a>
+             <a className="text-white my-3 block" href="/#">Privacy Policy <span className="text-teal-600 text-xs p-1"></span></a>
+             <a className="text-white my-3 block" href="/#">Conditions <span className="text-teal-600 text-xs p-1"></span></a> 
           </div>
           <div className="p-5 w-48 ">
              <div className="text-base  text-white font-medium">Contact Information</div>
