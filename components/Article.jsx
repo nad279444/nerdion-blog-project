@@ -21,7 +21,7 @@ export default function Article({ post }) {
               <small>Last updated {post.updated_at}</small>
             </p>
             <div className="flex justify-center">
-            <button className='  hover:text-white hover:bg-red-800 rounded-full py-2 px-3 uppercase text-xs font-bold curser-pointer tracking-wider  bg-purple-300'>Read More</button>
+            <button className='  hover:text-white hover:bg-red-800 rounded-full py-2 px-3 uppercase text-xs font-bold curser-pointer tracking-wider  bg-transparent border-2 '>Read More</button>
             </div>
           </div>
         </div>
