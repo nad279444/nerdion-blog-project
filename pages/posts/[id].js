@@ -8,7 +8,7 @@ import Image from 'next/image'
      const htmlContent = md.render(post.content)
     return (
         <>
-             <h3 className="flex justify-center mt-24 md:text-6xl text-xl md:relative top-46 font-bold">{post.title}</h3>
+             <h3 className="flex justify-center md:mt-24 my-12 md:text-6xl text-3xl md:relative top-46 font-bold">{post.title}</h3>
             <div className="md:m-60 md:mt-20 ">
                 <div>
                     <Image src={`http://localhost:1337${post.media[0].url}`} width={800} height={500} priority/>
