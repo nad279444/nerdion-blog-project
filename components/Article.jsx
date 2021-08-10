@@ -8,14 +8,14 @@ export default function Article({ post }) {
     <Link href={`/posts/${post.id}`}>
         <div className='bg-white rounded overflow-hidden shadow border'>
           <Image
-            className='object-cover'
+            className='object-cover transform hover:scale-125 duration-500'
             src={`http://localhost:1337${post.media[0].url}`}
             width={700}
             height={450}
             priority
           />
           <div className='p-6'>
-            <h5 className='text-center font-bold text-lg'>{post.title}</h5>
+            <h5 className='text-center font-bold text-lg hover:text-green-500'>{post.title}</h5>
             <p className='text-center font-thin font-body text-sm m-2'>{post.description}</p>
             <p className='text-center mb-4'>
               <small>Last updated {post.updated_at.slice(-13,-2)}</small>
