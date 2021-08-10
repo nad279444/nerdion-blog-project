@@ -4,7 +4,10 @@ import MarkdownIt from 'markdown-it'
 import Image from 'next/image'
 
  function Blog({post}) {
-     const md = new MarkdownIt()
+     const md = new MarkdownIt().set({
+         breaks:true,
+         html:true
+     })
      const htmlContent = md.render(post.content)
     return (
         <>
@@ -41,3 +44,20 @@ import Image from 'next/image'
         fallback:false
     }
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

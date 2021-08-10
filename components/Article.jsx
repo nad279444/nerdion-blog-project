@@ -11,7 +11,7 @@ export default function Article({ post }) {
             className='object-cover'
             src={`http://localhost:1337${post.media[0].url}`}
             width={700}
-            height={300}
+            height={450}
             priority
           />
           <div className='p-6'>

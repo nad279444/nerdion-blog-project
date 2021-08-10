@@ -8,7 +8,7 @@ export default function Articles({posts}) {
      }
 
     return (
-        <div className='grid lg:grid-cols-3 justify-center gap-10 m-16 font-body'>
+        <div className='grid lg:grid-cols-3 justify-center gap-5 m-16 font-body'>
             {featuredPosts()} 
         </div> 
                       
